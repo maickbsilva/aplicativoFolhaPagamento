@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        style="@style/estio_textview"
+        android:text="@string/titulo"
+        />
+
+    <TextView
+        style="@style/estio_textview"
+        android:text="@string/salario"
+    />
+
+    <EditText
+        android:id="@+id/txSalario"
+        style="@style/estilo_edit"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/numDependentes"
+        style="@style/estio_textview"
+        android:text="@string/dependentes"
+        />
+
+    <EditText
+        android:id="@+id/txDependentes"
+        style="@style/estilo_edit"
+        android:minHeight="48dp"
+        android:inputType="numberDecimal"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/plano"
+        style="@style/estio_textview"
+        android:text="@string/plano" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <RadioButton
+            android:id="@+id/tipostandard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tipostandard"/>
+
+        <RadioButton
+
+            android:id="@+id/tipobasico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tipobasico" />
+
+        <RadioButton
+            android:id="@+id/tiposuper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tiposuper" />
+
+        <RadioButton
+            android:id="@+id/tipomaster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tipomaster"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/beneficios"
+        style="@style/estio_textview"
+        android:text="@string/beneficios" />
+
+    <CheckBox
+        android:id="@+id/valeTransp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valeTransp" />
+    <CheckBox
+        android:id="@+id/valeAli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valeAli" />
+    <CheckBox
+        android:id="@+id/valeRef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valeRef" />
+
+    <Button
+        android:id="@+id/botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="irparasegunda"
+        android:text="@string/botao" />
+
+
+</LinearLayout>

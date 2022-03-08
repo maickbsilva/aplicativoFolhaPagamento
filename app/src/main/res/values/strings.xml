@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">folhadepagamento</string>
+    <string name="salario">Qual o seu salário?</string>
+    <string name="valida_salario">Informe o salário</string>
+    <string name="titulo">Folha de pagamentos</string>
+    <string name="dependentes">Quantos dependentes?</string>
+    <string name="valida_dependentes">Informe o número de dependentes</string>
+    <string name="plano">Qual seu plano de saúde?</string>
+    <string name="tipostandard">Standard</string>
+    <string name="tipobasico">Básico</string>
+    <string name="tiposuper">Super</string>
+    <string name="tipomaster">Master</string>
+    <string name="beneficios">Quais benefícios você recebe?</string>
+    <string name="valeTransp">Vale Transporte</string>
+    <string name="valeAli">Vale Alimentação</string>
+    <string name="valeRef">Vale Refeição</string>
+    <string name="botao">Calcular</string>
+</resources>
