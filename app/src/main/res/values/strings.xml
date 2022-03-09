@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">folhadepagamento</string>
+    <string name="app_name">Folha de Pagamento</string>
     <string name="salario">Qual o seu salário?</string>
     <string name="valida_salario">Informe o salário</string>
-    <string name="titulo">Folha de pagamentos</string>
-    <string name="dependentes">Quantos dependentes?</string>
+    <string name="titulo">Informe seus dados:</string>
+    <string name="dependentes">Quantos dependentes você possui?</string>
     <string name="valida_dependentes">Informe o número de dependentes</string>
     <string name="plano">Qual seu plano de saúde?</string>
     <string name="tipostandard">Standard</string>
@@ -15,4 +15,14 @@
     <string name="valeAli">Vale Alimentação</string>
     <string name="valeRef">Vale Refeição</string>
     <string name="botao">Calcular</string>
+    <string name="salarioLiquido">Salário Líquido:</string>
+    <string name="salarioBruto">Salário Bruto:</string>
+    <string name="folhadepagamento">FOLHA DE PAGAMENTO</string>
+    <string name="descontoPlano">Desconto do Plano de saúde:</string>
+    <string name="descontoTransporte">Desconto do Vale Transporte:</string>
+    <string name="descontoAlimentacao">Desconto do Vale Alimentação:</string>
+    <string name="descontoRefeicao">Desconto do Vale Refeição:</string>
+    <string name="descontoImpostoRenda">Desconto do Imposto de Renda:</string>
+    <string name="descontoInss">Desconto do INSS:</string>
+    <string name="porcDesconto">Porcentagem de descontos:</string>
 </resources>
